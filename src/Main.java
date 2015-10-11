@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+import Train.Direction;
+
+>>>>>>> 41882e597a1bd5b776f37a6c73f6d8fc48a0175d
 
 public class Main {
 	public static void main() {
