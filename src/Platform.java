@@ -19,9 +19,9 @@ public class Platform
   // CONSTRUCTOR
   //------------------------
 
-  public Platform(boolean aIsAvailable)
+  public Platform()
   {
-    isAvailable = aIsAvailable;
+    isAvailable = true;
   }
 
   //------------------------
