@@ -5,7 +5,7 @@
 
 // line 22 "model.ump"
 // line 75 "model.ump"
-public class DoorSystem extends Train
+public class DoorSystem
 {
 
   //------------------------
@@ -23,9 +23,8 @@ public class DoorSystem extends Train
   // CONSTRUCTOR
   //------------------------
 
-  public DoorSystem(DoorSystem aDoors, Station aCurrentStation)
+  public DoorSystem()
   {
-    super(aDoors, aCurrentStation);
     setDoorActions(DoorActions.Opening);
   }
 
@@ -182,11 +181,6 @@ public class DoorSystem extends Train
         controller.doActivityDoorActionsOpen();
       }
     }
-  }
-
-  public void delete()
-  {
-    super.delete();
   }
 
 }
